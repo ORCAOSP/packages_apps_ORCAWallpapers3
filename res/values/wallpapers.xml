@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2012 Orca Project
+
+     Licensed under the GNU GPLv2 license
+
+     The text of the license can be found in the LICENSE file
+     or at https://www.gnu.org/licenses/gpl-2.0.txt
+-->
+
+<resources>
+    <string-array name="wallpapers" translatable="false">
+        <item>squren_design</item>
+        <item>squren_design2</item>
+        <item>squren_design3</item>
+        <item>squren_march_madness</item>
+        <item>squren_march_madness1</item>
+        <item>squren_march_madness2</item>
+        <item>squren_march_madness3</item>
+        <item>wallpaper-834110</item>
+        <item>wallpaper-1387078</item>
+        <item>wallpaper-2096766</item>
+        <item>wallpaper-2598826</item>
+        <item>s4_006</item>
+        <item>s35_007</item>
+        <item>03181_candybean_1920x1080</item>
+        <item>03086_silhouette_2560x1440</item>
+        <item>s35_002</item>
+    </string-array>
+
+    <string-array name="info" translatable="false">
+        <item>squren</item>
+        <item>squren</item>
+        <item>squren</item>
+        <item>squren</item>
+        <item>squren</item>
+        <item>squren</item>
+        <item>squren</item>
+        <item>bigfoot</item>
+        <item>bigfoot</item>
+        <item>bigfoot</item>
+        <item>bigfoot</item>
+        <item>bigfoot</item>
+        <item>bigfoot</item>
+        <item>bigfoot</item>
+        <item>bigfoot</item>
+        <item>bigfoot</item>
+    </string-array>
+</resources>
