@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Copyright (C) 2012 Orca Project
+<!-- Copyright (C) 2012 The Orca Project
 
      Licensed under the GNU GPLv2 license
 
@@ -9,18 +9,37 @@
 
 <resources>
     <string-array name="wallpapers" translatable="false">
-        <item>wallpaper-0</item>
-        <item>wallpaper-1</item>
-        <item>wallpaper-2</item>
-        <item>wallpaper-3</item>
-        <item>wallpaper-4</item>
-        <item>wallpaper-5</item>
-        <item>wallpaper-6</item>
-        <item>wallpaper-7</item>
-        <item>wallpaper-8</item>
-        <item>wallpaper-9</item>
+        <item>wallpaper_1</item>
+        <item>wallpaper_2</item>
+        <item>wallpaper_3</item>
+        <item>wallpaper_4</item>
+        <item>wallpaper_5</item>
+        <item>wallpaper_6</item>
+        <item>wallpaper_7</item>
+        <item>wallpaper_8</item>
+        <item>wallpaper_9</item>
+        <item>wallpaper_10</item>
+        <item>wallpaper_11</item>
+        <item>wallpaper_12</item>
+        <item>wallpaper_13</item>
+        <item>wallpaper_14</item>
     </string-array>
 
     <string-array name="info" translatable="false">
+        <item>circles</item>
+        <item>stripes</item>
+        <item>hex</item>
+        <item>hex2</item>
+        <item>city</item>
+        <item>flower</item>
+        <item>squren</item>
+        <item>squren2</item>
+        <item>squren3</item>
+        <item>gecko</item>
+        <item>window</item>
+        <item>farm</item>
+        <item>city limits</item>
+        <item>clouds</item>
+        <item>zed</item>
     </string-array>
 </resources>

@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2012 Orca Project
+ * Copyright (C) 2012 The Orca Project
  *
  * Licensed under the GNU GPLv2 license
  *
@@ -7,7 +7,7 @@
  * or at https://www.gnu.org/licenses/gpl-2.0.txt
  */
 
-package com.orca.Wallpapers;
+package com.drewgaren.OrcaWallpapers;
 
 import android.app.Activity;
 import android.app.AlertDialog;
@@ -26,10 +26,10 @@ public class SolidColor extends Activity {
     @Override
     public void onCreate(Bundle bundle) {
         super.onCreate(bundle);
-        final CharSequence[] items = getResources().getStringArray(R.array.solid_colors);
-        final Context context = this;
+        final CharSequence[] items = getResources().getStringArray(R.array.colors);
+        final Context mContext = this;
 
-        AlertDialog.Builder builder = new AlertDialog.Builder(context);
+        AlertDialog.Builder builder = new AlertDialog.Builder(this);
         builder.setTitle(getString(R.string.pick_color));
         builder.setItems(items, new DialogInterface.OnClickListener() {
             @Override
@@ -57,7 +57,7 @@ public class SolidColor extends Activity {
                 }
                 
                 try {
-                    WallpaperManager wm = WallpaperManager.getInstance(context);
+                    WallpaperManager wm = WallpaperManager.getInstance(mContext);
                     
                     // Create 1x1 bitmap to store the color
                     Bitmap bmp = Bitmap.createBitmap(1, 1, Bitmap.Config.ARGB_8888);
@@ -74,12 +74,11 @@ public class SolidColor extends Activity {
                 } catch (IOException e) {
                     // oh lord!
                 }
-
+                
                 finish();
             }
         });
         AlertDialog alert = builder.create();
-        alert.setCancelable(false);
         alert.show();
     }
 }

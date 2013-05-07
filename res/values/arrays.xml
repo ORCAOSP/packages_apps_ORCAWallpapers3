@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Copyright (C) 2012 Orca Project
+<!-- Copyright (C) 2012 The Orca Project
 
      Licensed under the GNU GPLv2 license
 
@@ -9,7 +9,7 @@
 
 <resources>
 
-    <string-array name="solid_colors">
+    <string-array name="colors">
         <item>@string/red</item>
         <item>@string/green</item>
         <item>@string/blue</item>
@@ -17,13 +17,6 @@
         <item>@string/orange</item>
         <item>@string/white</item>
         <item>@string/black</item>
-    </string-array>
-
-    <string-array name="customize_colors">
-        <item>@string/red</item>
-        <item>@string/green</item>
-        <item>@string/blue</item>
-        <item>@string/white</item>
     </string-array>
 
 </resources>
