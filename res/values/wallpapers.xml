@@ -9,40 +9,18 @@
 
 <resources>
     <string-array name="wallpapers" translatable="false">
-        <item>squren_design</item>
-        <item>squren_design2</item>
-        <item>squren_design3</item>
-        <item>squren_march_madness</item>
-        <item>squren_march_madness1</item>
-        <item>squren_march_madness2</item>
-        <item>squren_march_madness3</item>
-        <item>wallpaper-834110</item>
-        <item>wallpaper-1387078</item>
-        <item>wallpaper-2096766</item>
-        <item>wallpaper-2598826</item>
-        <item>s4_006</item>
-        <item>s35_007</item>
-        <item>03181_candybean_1920x1080</item>
-        <item>03086_silhouette_2560x1440</item>
-        <item>s35_002</item>
+        <item>wallpaper-0</item>
+        <item>wallpaper-1</item>
+        <item>wallpaper-2</item>
+        <item>wallpaper-3</item>
+        <item>wallpaper-4</item>
+        <item>wallpaper-5</item>
+        <item>wallpaper-6</item>
+        <item>wallpaper-7</item>
+        <item>wallpaper-8</item>
+        <item>wallpaper-9</item>
     </string-array>
 
     <string-array name="info" translatable="false">
-        <item>squren</item>
-        <item>squren</item>
-        <item>squren</item>
-        <item>squren</item>
-        <item>squren</item>
-        <item>squren</item>
-        <item>squren</item>
-        <item>bigfoot</item>
-        <item>bigfoot</item>
-        <item>bigfoot</item>
-        <item>bigfoot</item>
-        <item>bigfoot</item>
-        <item>bigfoot</item>
-        <item>bigfoot</item>
-        <item>bigfoot</item>
-        <item>bigfoot</item>
     </string-array>
 </resources>
